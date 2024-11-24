@@ -11,12 +11,12 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-[#4E342E] via-[#D6A679] to-transparent opacity-90"></div>
 
             {/* Content */}
-            <div id="home" className="relative z-10 flex items-center justify-start h-full px-10 lg:px-20">
-                <div className="max-w-xl">
-                    <h1 className="text-5xl font-bold leading-tight text-[#F5F5DC]">
+            <div id="home" className="relative z-10 flex items-center justify-center h-full px-6 sm:px-10 lg:px-20">
+                <div className="max-w-xl text-center sm:text-left">
+                    <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-[#F5F5DC]">
                         Welcome to Pure Treats Cakes & Bakery
                     </h1>
-                    <p className="mt-4 text-lg text-[#F5F5DC]">
+                    <p className="mt-4 text-base sm:text-lg text-[#F5F5DC]">
                         Indulge in our freshly baked delights: Chocolate Chip Cookies, Cinnamon Rolls, Gourmet Brownies, Cake Slices, and Muffins. Your happiness is our top priority.
                     </p>
                     <a href="#menu">
@@ -24,7 +24,6 @@ const Hero = () => {
                             Explore Our Menu
                         </button>
                     </a>
-
                 </div>
             </div>
         </section>
