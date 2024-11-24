@@ -11,8 +11,8 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-[#4E342E] via-[#D6A679] to-transparent opacity-90"></div>
 
             {/* Content */}
-            <div id="home" className="relative z-10 flex items-center justify-center h-full px-6 sm:px-10 lg:px-20">
-                <div className="max-w-xl text-center sm:text-left">
+            <div id="home" className="relative z-10 flex items-center justify-start h-full px-6 sm:px-10 lg:px-20">
+                <div className="max-w-xl text-left">
                     <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-[#F5F5DC]">
                         Welcome to Pure Treats Cakes & Bakery
                     </h1>
